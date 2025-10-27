@@ -173,6 +173,44 @@ GUI_PASSWORD_FIELDS.append("deepl_auth_key")
 # and return the OpenAISettings instance using the transform method.
 
 
+class AIPodSettings(BaseModel):
+    """AIPod settings"""
+    import os
+
+    translate_engine_type: Literal["AIPod"] = Field(default="AIPod")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
+    aipod_model: str = Field(
+        default="aipod-trans", description="AIPod model to use"
+    )
+    aipod_base_url: str | None = Field(
+        default=os.getenv("AIPOD_BASE_URL", "https://trans:3000/v1"), description="Base URL for AIPod API"
+    )
+    aipod_api_key: str | None = Field(
+        default="sk-888", description="API key for AIPod service"
+    )
+    aipod_enable_json_mode: bool | None = Field(
+        default=False, description="Enable JSON mode for AIPod service"
+    )
+
+    def validate_settings(self) -> None:
+        self.aipod_api_key = _clean_string(self.aipod_api_key)
+        self.aipod_model = _clean_string(self.aipod_model)
+        self.aipod_base_url = _clean_string(self.aipod_base_url)
+
+    def transform(self) -> OpenAISettings:
+        return OpenAISettings(
+            openai_model=self.aipod_model,
+            openai_api_key=self.aipod_api_key,
+            openai_base_url=self.aipod_base_url,
+            openai_enable_json_mode=self.aipod_enable_json_mode,
+        )
+
+
+GUI_PASSWORD_FIELDS.append("aipod_api_key")
+
+
 class DeepSeekSettings(BaseModel):
     """DeepSeek settings"""
 
@@ -823,7 +861,8 @@ class ClaudeCodeSettings(BaseModel):
 
 # 所有翻译引擎
 TRANSLATION_ENGINE_SETTING_TYPE: TypeAlias = (
-    SiliconFlowFreeSettings
+    AIPodSettings
+    | SiliconFlowFreeSettings
     | OpenAISettings
     | AliyunDashScopeSettings
     | GoogleSettings
@@ -852,7 +891,7 @@ TRANSLATION_ENGINE_SETTING_TYPE: TypeAlias = (
 NOT_SUPPORTED_TRANSLATION_ENGINE_SETTING_TYPE: TypeAlias = NoneType
 
 # 默认翻译引擎
-_DEFAULT_TRANSLATION_ENGINE = SiliconFlowFreeSettings
+_DEFAULT_TRANSLATION_ENGINE = AIPodSettings
 assert len(_DEFAULT_TRANSLATION_ENGINE.model_fields) == 2, (
     "Default translation engine cannot have detail settings"
 )
