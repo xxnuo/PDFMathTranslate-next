@@ -172,10 +172,10 @@ GUI_PASSWORD_FIELDS.append("deepl_auth_key")
 # You only need to add the corresponding configuration class
 # and return the OpenAISettings instance using the transform method.
 
+import os
 
 class AIPodSettings(BaseModel):
     """AIPod settings"""
-    import os
 
     translate_engine_type: Literal["AIPod"] = Field(default="AIPod")
     support_llm: Literal["yes", "no"] = Field(
