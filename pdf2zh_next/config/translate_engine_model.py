@@ -1,4 +1,6 @@
+
 import logging
+import os
 import re
 import typing
 from dataclasses import dataclass
@@ -172,7 +174,6 @@ GUI_PASSWORD_FIELDS.append("deepl_auth_key")
 # You only need to add the corresponding configuration class
 # and return the OpenAISettings instance using the transform method.
 
-import os
 
 class AIPodSettings(BaseModel):
     """AIPod settings"""
@@ -207,9 +208,6 @@ class AIPodSettings(BaseModel):
             openai_base_url=self.aipod_base_url,
             openai_enable_json_mode=self.aipod_enable_json_mode,
         )
-
-
-GUI_PASSWORD_FIELDS.append("aipod_api_key")
 
 
 class DeepSeekSettings(BaseModel):
