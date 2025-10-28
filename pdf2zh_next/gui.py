@@ -1118,7 +1118,7 @@ with gr.Blocks(
                     _(
                         "Free translation service provided by [SiliconFlow](https://siliconflow.cn)"
                     ),
-                    visible=True,
+                    visible=False,
                 )
 
                 detail_index = 0
