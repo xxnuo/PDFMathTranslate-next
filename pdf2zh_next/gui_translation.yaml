@@ -30,7 +30,7 @@ de:
   File: Datei
   Font pattern to identify formula text (regex, not recommended to change): Schriftmuster zur Erkennung von Formeltext (Regex, Änderung nicht empfohlen)
   Force split short lines into different paragraphs: Kurze Zeilen zwangsweise in verschiedene Absätze aufteilen
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Kostenloser Übersetzungsservice bereitgestellt von [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): Kostenloser Übersetzungsservice bereitgestellt von [SiliconFlow](https://siliconflow.cn)
   Glossary File: Glossardatei
   Handle alternating line numbers and text paragraphs in documents with line numbers: Umgang mit wechselnden Zeilennummern und Textabsätzen in Dokumenten mit Zeilennummern
   If not set or set to 0, QPS will be used as the number of workers: Wenn nicht gesetzt oder auf 0 gesetzt, wird QPS als Anzahl der Worker verwendet.
@@ -112,7 +112,7 @@ en:
   File: File
   Font pattern to identify formula text (regex, not recommended to change): Font pattern to identify formula text (regex, not recommended to change)
   Force split short lines into different paragraphs: Force split short lines into different paragraphs
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Free translation service provided by [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html)
   Glossary File: Glossary File
   Handle alternating line numbers and text paragraphs in documents with line numbers: Handle alternating line numbers and text paragraphs in documents with line numbers
   If not set or set to 0, QPS will be used as the number of workers: If not set or set to 0, QPS will be used as the number of workers
@@ -194,7 +194,7 @@ es:
   File: Archivo
   Font pattern to identify formula text (regex, not recommended to change): Patrón de fuente para identificar texto de fórmulas (expresión regular, no se recomienda cambiar)
   Force split short lines into different paragraphs: Forzar la división de líneas cortas en párrafos diferentes
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Servicio de traducción gratuito proporcionado por [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): Servicio de traducción gratuito proporcionado por [SiliconFlow](https://siliconflow.cn)
   Glossary File: Archivo de Glosario
   Handle alternating line numbers and text paragraphs in documents with line numbers: Manejar números de línea alternos y párrafos de texto en documentos con numeración de líneas
   If not set or set to 0, QPS will be used as the number of workers: Si no se establece o se establece en 0, se utilizará QPS como el número de trabajadores.
@@ -276,7 +276,7 @@ fr:
   File: Fichier
   Font pattern to identify formula text (regex, not recommended to change): Motif de police pour identifier le texte des formules (regex, déconseillé de modifier)
   Force split short lines into different paragraphs: Forcer la séparation des lignes courtes en paragraphes distincts
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Service de traduction gratuit proposé par [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): Service de traduction gratuit proposé par [SiliconFlow](https://siliconflow.cn)
   Glossary File: Fichier de glossaire
   Handle alternating line numbers and text paragraphs in documents with line numbers: Gérer les numéros de ligne alternés et les paragraphes de texte dans les documents avec numéros de ligne
   If not set or set to 0, QPS will be used as the number of workers: Si non défini ou défini sur 0, le QPS sera utilisé comme nombre de workers.
@@ -358,7 +358,7 @@ it:
   File: File
   Font pattern to identify formula text (regex, not recommended to change): Modello di carattere per identificare il testo della formula (regex, non è consigliato modificarlo)
   Force split short lines into different paragraphs: Forza la divisione delle righe brevi in paragrafi diversi
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Servizio di traduzione gratuito offerto da [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): Servizio di traduzione gratuito offerto da [SiliconFlow](https://siliconflow.cn)
   Glossary File: File Glossario
   Handle alternating line numbers and text paragraphs in documents with line numbers: Gestire numeri di riga alternati e paragrafi di testo in documenti con numeri di riga
   If not set or set to 0, QPS will be used as the number of workers: Se non impostato o impostato a 0, verrà utilizzato il QPS come numero di worker
@@ -440,7 +440,7 @@ ja:
   File: ファイル
   Font pattern to identify formula text (regex, not recommended to change): 数式テキストを識別するためのフォントパターン（正規表現、変更は非推奨）
   Force split short lines into different paragraphs: 短い行を強制的に別の段落に分割する
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): '[SiliconFlow](https://siliconflow.cn) が提供する無料翻訳サービス'
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): '[SiliconFlow](https://siliconflow.cn) が提供する無料翻訳サービス'
   Glossary File: 用語集ファイル
   Handle alternating line numbers and text paragraphs in documents with line numbers: 行番号付き文書における行番号とテキスト段落の交互処理
   If not set or set to 0, QPS will be used as the number of workers: 設定されていない場合、または 0 に設定されている場合、QPS がワーカー数として使用されます
@@ -522,7 +522,7 @@ ko:
   File: 파일
   Font pattern to identify formula text (regex, not recommended to change): 수식 텍스트를 식별하기 위한 글꼴 패턴 (정규식, 변경 비권장)
   Force split short lines into different paragraphs: 짧은 줄을 강제로 다른 단락으로 분할
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): '[SiliconFlow](https://siliconflow.cn) 에서 제공하는 무료 번역 서비스'
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): '[SiliconFlow](https://siliconflow.cn) 에서 제공하는 무료 번역 서비스'
   Glossary File: 용어집 파일
   Handle alternating line numbers and text paragraphs in documents with line numbers: 줄 번호가 있는 문서에서 번호와 텍스트 단락을 번갈아 처리하기
   If not set or set to 0, QPS will be used as the number of workers: 설정하지 않거나 0 으로 설정할 경우 QPS 가 작업자 수로 사용됩니다
@@ -604,7 +604,7 @@ pt:
   File: Arquivo
   Font pattern to identify formula text (regex, not recommended to change): Padrão de fonte para identificar texto de fórmula (regex, não recomendado alterar)
   Force split short lines into different paragraphs: Forçar a divisão de linhas curtas em parágrafos diferentes
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Serviço de tradução gratuito fornecido por [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): Serviço de tradução gratuito fornecido por [SiliconFlow](https://siliconflow.cn)
   Glossary File: Arquivo de Glossário
   Handle alternating line numbers and text paragraphs in documents with line numbers: Lidar com números de linha alternados e parágrafos de texto em documentos com numeração de linhas
   If not set or set to 0, QPS will be used as the number of workers: Se não for definido ou definido como 0, o QPS será usado como o número de workers
@@ -686,7 +686,7 @@ ru:
   File: Файл
   Font pattern to identify formula text (regex, not recommended to change): Шаблон шрифта для распознавания формул (регулярное выражение, не рекомендуется изменять)
   Force split short lines into different paragraphs: Принудительно разделять короткие строки на разные абзацы
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): Бесплатный сервис перевода предоставлен [SiliconFlow](https://siliconflow.cn)
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): Бесплатный сервис перевода предоставлен [SiliconFlow](https://siliconflow.cn)
   Glossary File: Файл глоссария
   Handle alternating line numbers and text paragraphs in documents with line numbers: Обрабатывать чередующиеся номера строк и текстовые абзацы в документах с нумерацией строк
   If not set or set to 0, QPS will be used as the number of workers: Если значение не задано или равно 0, в качестве количества рабочих процессов будет использоваться QPS
@@ -768,7 +768,7 @@ zh:
   File: 文件
   Font pattern to identify formula text (regex, not recommended to change): 用于识别公式文本的字体模式（正则表达式，不建议更改）
   Force split short lines into different paragraphs: 强制将短行分割为不同段落
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): 免费翻译服务由 [SiliconFlow](https://siliconflow.cn) 提供
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): AIPod 翻译服务文档：[精准翻译（LLM）](https://developer.lazycat.cloud/aipod/trans/trans.html)
   Glossary File: 术语表文件
   Handle alternating line numbers and text paragraphs in documents with line numbers: 处理带行号文档中的交替行号与文本段落
   If not set or set to 0, QPS will be used as the number of workers: 如果未设置或设置为 0，QPS 将用作工作线程数
@@ -850,7 +850,7 @@ zh-TW:
   File: 檔案
   Font pattern to identify formula text (regex, not recommended to change): 用於識別公式文字的字型模式（正則表達式，不建議更改）
   Force split short lines into different paragraphs: 強制將短行分割為不同段落
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): '[SiliconFlow](https://siliconflow.cn) 提供的免費翻譯服務'
+  AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html): '[SiliconFlow](https://siliconflow.cn) 提供的免費翻譯服務'
   Glossary File: 詞彙表檔案
   Handle alternating line numbers and text paragraphs in documents with line numbers: 處理文件中交替的行號與文字段落（含行號的文件）
   If not set or set to 0, QPS will be used as the number of workers: 若未設定或設為 0，將使用 QPS 作為工作執行緒數量
