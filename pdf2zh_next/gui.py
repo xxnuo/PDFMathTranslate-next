@@ -1116,7 +1116,7 @@ with gr.Blocks(
 
                 siliconflow_free_acknowledgement = gr.Markdown(
                     _(
-                        "AIPod translation service document: [Accurate translation (LLM)](https://developer.lazycat.cloud/aipod/trans/trans.html)"
+                        "AIPod translation service document [Accurate translation](https://developer.lazycat.cloud/aipod/trans/trans.html)"
                     ),
                     visible=True,
                 )
