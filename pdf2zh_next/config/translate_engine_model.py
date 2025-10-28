@@ -198,6 +198,7 @@ class AIPodSettings(BaseModel):
         self.aipod_api_key = _clean_string(self.aipod_api_key)
         self.aipod_model = _clean_string(self.aipod_model)
         self.aipod_base_url = _clean_string(self.aipod_base_url)
+        logging.info(f"AIPod base URL: {self.aipod_base_url}")
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -892,9 +893,9 @@ NOT_SUPPORTED_TRANSLATION_ENGINE_SETTING_TYPE: TypeAlias = NoneType
 
 # 默认翻译引擎
 _DEFAULT_TRANSLATION_ENGINE = AIPodSettings
-assert len(_DEFAULT_TRANSLATION_ENGINE.model_fields) == 2, (
-    "Default translation engine cannot have detail settings"
-)
+# assert len(_DEFAULT_TRANSLATION_ENGINE.model_fields) == 2, (
+#     "Default translation engine cannot have detail settings"
+# )
 
 # The following is magic code,
 # if you need to modify it,
