@@ -253,9 +253,9 @@ class OllamaSettings(BaseModel):
         default="yes", description="Whether the translator supports LLM"
     )
 
-    ollama_model: str = Field(default="gemma2", description="Ollama model to use")
+    ollama_model: str = Field(default="", description="Ollama model to use")
     ollama_host: str | None = Field(
-        default="http://localhost:11434", description="Ollama host"
+        default="http://ollama:11434", description="Ollama host"
     )
     num_predict: int | None = Field(
         default=2000, description="The max number of token to predict."
